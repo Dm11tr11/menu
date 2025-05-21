@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+.menu {
+  width: 400px;
+  height: 550px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 3px solid #333;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.breakfast {
+  background-image: url('images/pancakes.jfif');
+}
+
+.lunch {
+  background-image: url('images/fries.jfif');
+}
+
+.dinner {
+  background-image: url('images/spaghetti.jfif');
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 28px;
+  text-shadow: 1px 1px 3px black;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  margin: 10px 0;
+  font-size: 20px;
+  text-shadow: 1px 1px 2px black;
+}
